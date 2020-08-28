@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Jainero xpress",
-    "slug": "Jainero xpress",
+    "name": "Jainero Xpress",
+    "slug": "JaineroXpress",
     "platforms": [
       "ios",
       "android",
@@ -9,11 +9,11 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/i.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,14 +22,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+     
+      "supportsTablet": true,
+      "bundleIdentifier":"com.Jaineroxpress.Jaineroxpress"
     },
-    "android":{
-      "permissions": ["CAMERA_ROLL"],
+    "android": {
+      "permissions": [
+        "CAMERA_ROLL"
+      ],
       "package": "com.Jaineroxpress.Jaineroxpress",
-      "versionCode": 1
- 
-  
-    }
+      "versionCode": 1,
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyCcLncJS0DelHzF5QzhEFMpl3IxiQ9fYlI"
+        }
+      }
+    },
+    "description": ""
   }
 }
